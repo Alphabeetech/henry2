@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.founder-photo img {
+    max-width: 100%;
+    border-radius: 40px; /* Adding rounded corners to the photo */
+}
+
+.founder-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.founder-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Custom CSS to add a gap of 2 columns between the photo and text */
+@media (min-width: 768px) {
+    .founder-section .col-md-2 {
+        display: none;
+    }
+    .founder-section .col-md-4 + .col-md-6 {
+        margin-left: 4.16667%; /* 2 columns gap */
+    }
+}
+
+/*this is for the testimonials cards*/
+/* Apply general styling to all cards */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 350px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+  /* this is css for contact us page*/
+/* code details for contact page */
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#map {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 for the map */
+    height: 0;
+    overflow: hidden;
+}
+#map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#contact-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#contact-form textarea {
+    resize: vertical;
+}
+#form-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    #about-section {
+        background: rgba(32, 33, 36, 0.1);
+        position: relative;
+    }
+    
+    .blockabout {
+        padding: 20px;
+        background: white;
+    }
+    
+    .blockabout-inner {
+        padding: 30px;
+        border: 1px solid rgba(32, 33, 36, 0.1);
+    }
+    
+    .sosmed-horizontal a i {
+        border: 1px solid #070707;
+        border-radius: 50%;
+        color: #070707;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        margin: auto 3px;
+        font-size: 15px;
+        text-align: center;
+        transition: all 0.3s;
+    }
+    
+    .rey-btn {
+        border: 2px solid #070707;
+        padding: 10px 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 13px;
+        font-weight: 700;
+        border-radius: 50px;
+        transition: all 0.3s;
+    }
+    
